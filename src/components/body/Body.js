@@ -7,10 +7,12 @@ import ClientBody from "./ClientBody";
 class Body extends Component {
     render() {
         return (
-            <Switch>
-                <Route exact path="/" component={HomeBody}/>
-                <Route path="/clients" component={ClientBody}/>
-            </Switch>
+            <main>
+                <Switch>
+                    <Route exact path="/" component={HomeBody}/>
+                    <Route path="/clients" component={ClientBody}/>
+                </Switch>
+            </main>
         );
     }
 }

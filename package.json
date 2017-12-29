@@ -5,8 +5,9 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "materialize-css": "^0.100.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-materialize": "^1.1.2",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17"

@@ -3,7 +3,7 @@ import {Switch, Route} from "react-router-dom";
 
 import Header from "./header/Header";
 import Body from "./body/Body";
-import Footer from "./footer/Footer";
+import Foot from "./footer/Foot";
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div>
         <Header />
         <Body />
-        <Footer />
+        <Foot />
       </div>
     );
   }

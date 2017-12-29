@@ -1,16 +1,13 @@
 import React, {Component} from "react";
-import NavbarLink from "./NavbarLink";
+import {Navbar} from "react-materialize";
 
 class Header extends Component {
     render() {
-        return (
+        return(
             <nav>
-                <div className="nav-wrapper">
-                    <a href="#" className="brand-logo right">Freelancer</a>
-                    <ul id="nav-mobile" className="left hide-on-med-and-down">
-                        <NavbarLink linkText="Clients"/>
-                    </ul>
-                </div>
+                <Navbar className="indigo lighten-1" brand="Freelancer" right>
+                    
+                </Navbar>
             </nav>
         );
     }

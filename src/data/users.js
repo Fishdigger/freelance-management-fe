@@ -1,0 +1,5 @@
+class AppUser {
+    getPermissions() {
+        return
+    }
+}
